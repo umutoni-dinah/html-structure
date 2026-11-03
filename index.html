@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML STRUCTURE AND CONTACT FORM PROJECT</title>
+</head>
+
+<body>
+    <header>
+        <h1> UMUTONI DINAH</h1>
+        <p>Welcome to my Simple website!</p>
+    </header>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with a keen interest in creating user-friendly and visually appealing
+                websites.
+                I am a curious and dedicated individual committed to continuous learning and growth in the field of web
+                development.
+                I enjoy exploring new technologies and applying them to real-world projects.
+            </p>
+            <img src="/images/pic.jpg" alt="A photo of me">
+            <h3>My interests</h3>
+            <ul>
+                <li>Reading Books</li>
+                <li>Trying out new recipes</li>
+                <li>Discovering cute spaces</li>
+            </ul>
+
+            <h3>My goals</h3>
+            <ol>
+                <li>Build a complete website</li>
+                <li>Keep improving my web development skills</li>
+            </ol><br>
+        </article>
+        <section id="contact">
+            <h2>Contact Me</h2>
+           <form>
+  <label for="full-name">Full name:</label>
+  <input type="text" id="full-name" name="full-name" required> <br> <br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required> <br> <br>
+  <label for = "inquiry category">Inquiry category:</label>
+    <select id="inquiry-category" name="inquiry-category" required>
+        <option value="">Select a category</option>
+        <option value="general">General Inquiry</option>
+        <option value="support">Support</option>
+        <option value="feedback">Feedback</option>
+    </select><br> <br>
+    <label for="message">Message:</label> <br>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..." required></textarea><br> <br>
+<label for = "newsletter-subscription">Newsletter subscription:</label>
+    <input type="checkbox" id="newsletter-subscription" name="newsletter-subscription"> <br> <br>
+    <button type="submit">Submit</button>
+</form> 
+        </section>
+
+    </main>
+</body>
+
+</html>
